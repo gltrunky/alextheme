@@ -14,16 +14,19 @@ function alexandre_register_assets()
 {
     $assets_directory = get_template_directory_uri() . '/assets/';
     $css_directory = $assets_directory . 'css/';
+    $js_directory = $assets_directory . 'js/';
 
     wp_register_style('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
     wp_register_style('alex', $css_directory . 'alex.css', array(), date("h:i:s"), null);
     wp_register_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', ['popper', 'jquery'], false, true);
+    wp_register_script('alexx', $js_directory . 'alex.js', [], false, true);
     wp_register_script('popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js', [], false, true);
     wp_deregister_script('jquery');
     wp_register_script('jquery', 'https://code.jquery.com/jquery-3.5.1.slim.min.js', [], false, true);
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('alex');
     wp_enqueue_script('bootstrap');
+    wp_enqueue_script('alexx');
 }
 
 function alexandre_menu_class($classes)

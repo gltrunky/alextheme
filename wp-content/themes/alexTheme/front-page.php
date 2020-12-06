@@ -19,16 +19,6 @@
         <div id="grilleIndex" class="col-md-12">
             <div class="col-sm-6 my-2">
                 <div class="card shadow">
-                    <a href="http://alex/competences/"><img src="wp-content/uploads/2020/09/skills.jpg" class="card-img-top" alt="skills image"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">Mes compétences</h5>
-                        <p class="card-text">Du front au back voici mon niveau.</p>
-                        <p class="text-center"><a class="btn btn-outline-success" href="http://alex/competences/" role="button">Compétences</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 my-2">
-                <div class="card shadow">
                     <a href="http://alex/creations/"><img src="wp-content/uploads/2020/09/creation.jpg" class="card-img-top" alt="portfolio image"></a>
                     <div class="card-body">
                         <h5 class="card-title">Mes créations</h5>
@@ -39,7 +29,17 @@
             </div>
             <div class="col-sm-6 my-2">
                 <div class="card shadow">
-                    <img src="wp-content/uploads/2020/09/news.jpg" class="card-img-top" alt="news image">
+                    <a href="http://alex/competences/"><img src="wp-content/uploads/2020/09/skills.jpg" class="card-img-top" alt="skills image"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Mes compétences</h5>
+                        <p class="card-text">Du front au back voici mon niveau.</p>
+                        <p class="text-center"><a class="btn btn-outline-success" href="http://alex/competences/" role="button">Compétences</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 my-2">
+                <div class="card shadow">
+                    <a href="http://alex/actualites/"><img src="wp-content/uploads/2020/09/news.jpg" class="card-img-top" alt="news image"></a>
                     <div class="card-body">
                         <h5 class="card-title">Actualités</h5>
                         <p class="card-text">Mes conseils, voici les actualités. </p>
@@ -49,7 +49,7 @@
             </div>
             <div class="col-sm-6 my-2 resaux">
                 <div class="card shadow">
-                    <img src="wp-content/uploads/2020/09/social.jpg" class="card-img-top" alt="social image">
+                    <a href="#titreContact"><img src="wp-content/uploads/2020/09/social.jpg" class="card-img-top" alt="social image"></a>
                     <div class="card-body">
                         <h5 class="card-title">Contact</h5>
                         <p class="card-text">Mon linkedin et mon repository Git</p>
