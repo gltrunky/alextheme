@@ -16,7 +16,7 @@
     <!-- section 1 de la page index -->
     <div class="row">
 
-        <div id="grilleIndex" class="col-md-8">
+        <div id="grilleIndex" class="col-md-12">
             <div class="col-sm-6 my-2">
                 <div class="card shadow">
                     <a href="http://alex/competences/"><img src="wp-content/uploads/2020/09/skills.jpg" class="card-img-top" alt="skills image"></a>
@@ -60,10 +60,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-md-4 text-center">
-            <iframe src="https://discordapp.com/widget?id=193667714923888640&theme=dark" width="95%" height="760" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
     </div>
     <h2 class="mt-5 mb-4 text-center display-6" id="titreContact">N'hesitez pas a me contacter</h2>
